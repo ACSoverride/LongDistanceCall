@@ -15,6 +15,8 @@ int main() {
         //asking for inputs
         cout << "\nPlease enter the when you started the call in HH.MM format";
         cin >> startCall >> feed;
+        cin.clear();
+        cin.ignore();
         fractional = startCall - static_cast<int>(startCall);
         //checking if the inputs are valid
         if (startCall <= 24.00 && startCall >= 00.00 && fractional <= 0.6 && feed >= "0" && feed <= "9") {
