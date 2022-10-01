@@ -2,7 +2,6 @@
 #include <cmath>
 #include <ios>
 #include <iomanip>
-//Author: Matthew Shapiro
 //Class : CSI 140-01
 // Assignment : PA x or Lab x
 // Date Assigned : 9/19/2022
